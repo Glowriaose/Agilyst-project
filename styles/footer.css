@@ -1,0 +1,93 @@
+.wrapper {
+  background: #0077b6;
+}
+
+footer {
+  overflow: hidden;
+  width: 100%;
+  margin-inline: auto;
+}
+
+@media (max-width: 992px) {
+  .footer-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.gradient-rectangle {
+  width: 150%;
+  height: 200%;
+  position: relative;
+}
+
+.agilyst-logo {
+  border: 1px solid blue;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  top: 33%;
+  transform: translate(left: -15%; top: -33%);
+}
+
+.footer-email input {
+  margin-inline: auto;
+  padding-block: 0.52rem;
+  border-radius: 15px;
+  background-color: #0077b6;
+  color: white;
+}
+
+.form-contro::placeholder {
+  color: #f5f0f6;
+}
+
+.footer-mail-wrapper {
+  position: relative;
+  left: 30%;
+  top: 0;
+  border: 2px solid #f5f0f6;
+}
+.subscribe {
+  position: absolute;
+  left: 25%;
+  top: 8%;
+  transform: translate(-25%, -8%);
+  background-color: #f5f0f6;
+  padding-block: 0.52rem;
+  border-radius: 15px;
+  width: 20%;
+
+  color: blue;
+}
+.card-title {
+  font-size: 1rem;
+  color: #f5f0f6;
+}
+ul li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 0.85rem;
+  color: #f5f0f6;
+}
+hr {
+  position: relative;
+  left: 25%;
+  bottom: 15%;
+  color: #f5f0f6;
+  width: 50% !important;
+}
+.fa-brands,
+.fa-regular,
+.fa-solid,
+p {
+  color: #f5f0f6;
+  font-size: 0.85rem;
+}
